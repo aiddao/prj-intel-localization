@@ -82,9 +82,10 @@ img {
 
 /* More info section */
 .info-title i {
-  font-size: 200px;
+  font-size: 2em;
   color: #0a6ad1;
   margin-right: 0.5rem;
+  display: inline-block;
 }
 
 /* FOOTER */
