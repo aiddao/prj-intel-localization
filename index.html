@@ -191,7 +191,7 @@
       <h4 class="text-center mb-3">Subscribe to Our Newsletter</h4>
       <form class="d-flex gap-2">
         <input type="email" class="form-control" placeholder="Enter your email" required>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
+        <button type="submit" class="btn btn-primary" id="subscription">Subscribe</button>
       </form>
     </div>
   </div>
@@ -209,5 +209,10 @@
   </footer>
 
 </body>
+<script>
+  document.getElementById("subscription").addEventListener('click', function(event) {
+    event.preventDefault(); 
+  });
+</script>
 <script src="bootstrap-translate-rtl-detector.js"></script>
 </html>
